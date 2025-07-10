@@ -1,0 +1,172 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+/* background-color:rgb(249, 243, 243) */
+}
+/* shared style */
+.secodary-background
+{
+background-color: #FFF8F3;
+
+ 
+}
+
+.text-pri{
+color:#FD6E0A ;
+}
+
+.text-center{
+text-align: center;
+}
+
+/* nav styles */
+nav {display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0  35px 0 230px;
+}
+
+.nav-title {
+font-weight: 800;
+font-size:  45px; ;
+}
+nav ul li{
+list-style: none;
+margin-right: 51px;  ;
+}
+nav a { text-decoration:none ;
+         font-size: 20;
+/* border-left: 230px; */
+}
+.dark2{
+color: #474747;
+}
+nav ul { 
+display: flex;
+align-items: center;
+
+}
+/* header */
+.header
+{
+
+background-image: url('images/developer.png') ,url('images/header_bg.png'); 
+background-repeat:no-repeat ;
+/* background-position:  top left ; */
+ 
+background-position:top left ,bottom right; 
+/* background-color: ; */
+}
+
+.btnpri{
+/* size: 150px 64px; */
+/* height: 64px; */
+/* width: 150px; */
+background-color: #FD6E0A;
+font-size: 20px;
+font-weight: bold;
+color: white;
+border-radius: 5px;
+padding: 18px 35px;
+border:none
+
+
+}
+.bnn{
+font-size:  85px; 
+font-weight: bold;
+}
+.bn-info{
+font-size: 45px;
+font-weight: Semibold;
+/* margin-right: 20px; */
+}
+.baner{
+display: flex;
+justify-content: space-between;
+margin: 0 35px 0 230px;
+}
+.banercon{
+max-width: 580px;
+/* margin-right: 20px; ; */
+}
+
+/* about style */
+.about {
+/* margin: 10px solid; */
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+margin: 130px;
+
+}
+
+/* main styles */
+.main {
+max-width: 1140px;
+margin: 0 auto;
+padding: 130px 150px;
+/* background-color:#FFF8F3 */
+}
+
+main section{
+margin-top: 130px;
+margin-bottom: 130px;
+}
+
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #181818 ;
+}
+.section-description {
+font-size: 18;
+/* background-color:#FFFFFF; */
+
+}
+
+.about-items
+{
+
+display: flex;
+justify-content: space-around;
+}
+.item-description{
+font-weight: 600;
+}
+.skills-container
+{display: flex;
+margin: 0 auto;
+background-color:#FFFFFF ;
+gap: 24px; 
+}
+.skill{
+/* margin : 10px 10px black; */
+/* color-gap: #000; */
+/* border: 100px solid  #181818; */
+padding: 30px;
+box-shadow: 0px 6px 50px 0px rgb(239, 228, 228)  ;
+border-radius: 5%;
+}
+
+/* resume */
+.resume-container{
+display: flex;
+gap: 20px;
+}
+.ex-des,.ex-sub-title{
+color: #757575;
+}
+.ex-sub-title{
+font-size: 20px;
+font-weight:600 ;
+margin-bottom :20px; ;
+}
+.resume-down{
+margin: 50px;
+
+}
